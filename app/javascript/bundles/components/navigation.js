@@ -1,47 +1,32 @@
 import React from 'react';
-import {NavBar} from 'simple-react-bootstrap'
 import RedScare from '../../../assets/images/redscare.png';
+import { Navbar, Image, NavItem, MenuItem, NavDropdown, Nav, PanelGroup, Panel, Grid, Row, Col, Button, Well } from 'react-bootstrap';
 
 const Navigation = (props) => {
   return (
-    <NavBar>
-        <NavBar.Header>
-                <img className="nav-logo" src={RedScare}/>
-            <NavBar.Toggle />
-        </NavBar.Header>
-        <NavBar.Nav>
-            <NavBar.Item className="class-on-item">Link 1</NavBar.Item>
-            <NavBar.Item disabled={true}>Link 2</NavBar.Item>
-            <NavBar.Item active={true} href="http://www.google.com">Link 3</NavBar.Item>
-            <NavBar.Dropdown toggleClassName="pointer-cursor" style={{ color: 'red' }} text="Sub menu">
-                <NavBar.Item>Sub option a</NavBar.Item>
-                <NavBar.Item href="#foo">Sub option b</NavBar.Item>
-                <NavBar.ItemDivider />
-                <NavBar.Item>Sub option c</NavBar.Item>
-            </NavBar.Dropdown>
-            <NavBar.Dropdown disabled={true} text="Sub menu">
-                <NavBar.Item>Sub option a</NavBar.Item>
-                <NavBar.Item>Sub option b</NavBar.Item>
-                <NavBar.Item>Sub option c</NavBar.Item>
-            </NavBar.Dropdown>
-        </NavBar.Nav>
-        <NavBar.Header>
-            <NavBar.Brand>
-                <a style={{ cursor: 'pointer' }}>Second Header</a>
-            </NavBar.Brand>
-            <NavBar.Toggle />
-        </NavBar.Header>
-        <NavBar.Form className="pull-left">
-            <div className="form-group">
-                <div className="input-group">
-                        <span className="input-group-btn">
-                            <button className="btn default">Search</button>
-                        </span>
-                    <input className="form-control" placeholder="Quick title search" />
-                </div>
-            </div>
-        </NavBar.Form>
-    </NavBar>
+    <Navbar className="navigation-bar"inverse collapseOnSelect>
+      <Navbar.Header>
+          <img className="nav-logo" src={RedScare}/>
+        <Navbar.Toggle />
+      </Navbar.Header>
+      <Navbar.Collapse>
+        <Nav>
+          <NavItem eventKey={1} href="#">Link</NavItem>
+          <NavItem eventKey={2} href="#">Link</NavItem>
+          <NavDropdown eventKey={3} title="Dropdown" id="basic-nav-dropdown">
+            <MenuItem eventKey={3.1}>Action</MenuItem>
+            <MenuItem eventKey={3.2}>Another action</MenuItem>
+            <MenuItem eventKey={3.3}>Something else here</MenuItem>
+            <MenuItem divider />
+            <MenuItem eventKey={3.3}>Separated link</MenuItem>
+          </NavDropdown>
+        </Nav>
+        <Nav pullRight>
+          <NavItem eventKey={1} href="#">Link Right</NavItem>
+          <NavItem eventKey={2} href="#">Link Right</NavItem>
+        </Nav>
+      </Navbar.Collapse>
+    </Navbar>
   )
 }
 
