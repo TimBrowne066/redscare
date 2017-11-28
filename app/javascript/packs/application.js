@@ -9,7 +9,8 @@
 
 import ReactOnRails from 'react-on-rails';
 import HomeContainer from '../bundles/home/homeContainer';
+import Navigation from '../bundles/components/navigation';
 
 ReactOnRails.register({
-  HomeContainer
+  HomeContainer, Navigation
 });
