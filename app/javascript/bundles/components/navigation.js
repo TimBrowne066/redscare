@@ -1,13 +1,12 @@
 import React from 'react';
 import {NavBar} from 'simple-react-bootstrap'
+import RedScare from '../../../assets/images/redscare.png';
 
 const Navigation = (props) => {
   return (
     <NavBar>
         <NavBar.Header>
-            <NavBar.Brand>
-                <a style={{ cursor: 'pointer' }}>Header</a>
-            </NavBar.Brand>
+                <img className="nav-logo" src={RedScare}/>
             <NavBar.Toggle />
         </NavBar.Header>
         <NavBar.Nav>
