@@ -11,9 +11,7 @@ class HomeContainer extends React.Component {
   render() {
 
     return (
-      <div className="HomeContainer">
-      <h1>HOME</h1>
-      </div>
+      <p>jhklsdgds</p>
     );
   }
 }
