@@ -12,7 +12,6 @@ class HomeContainer extends React.Component {
   render() {
 
     return (
-      <div>
       <div className="container">
       	<Row>
       		<Col lg={12} className="col-lg-12">
@@ -25,16 +24,12 @@ class HomeContainer extends React.Component {
       		</Col>
       	</Row>
 
-      </div>
           <Row className="home-content">
             <Col sm={12}>
               <h1>Hello</h1>
             </Col>
           </Row>
-          <Grid>
-          <Row>
-          <Col>
-              <h3>Leggings venmo asymmetrical irony lyft.
+          <h3 className="home-content">Leggings venmo asymmetrical irony lyft.
 
 Banh mi mustache food truck waistcoat williamsburg.
 Beard pork belly pour-over twee,
@@ -99,9 +94,6 @@ slow-carb cray quinoa scenester fam iPhone pitchfork.Leggings venmo asymmetrical
 Banh mi mustache food truck waistcoat williamsburg.
 Beard pork belly pour-over twee,
 slow-carb cray quinoa scenester fam iPhone pitchfork.</h3>
-            </Col>
-          </Row>
-          </Grid>
       </div>
     );
   }
