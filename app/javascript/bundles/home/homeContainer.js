@@ -30,70 +30,9 @@ class HomeContainer extends React.Component {
             </Col>
           </Row>
           <h3 className="home-content">Leggings venmo asymmetrical irony lyft.
-
 Banh mi mustache food truck waistcoat williamsburg.
 Beard pork belly pour-over twee,
-slow-carb cray quinoa scenester fam iPhone pitchfork.Leggings venmo asymmetrical irony lyft.
-
-Banh mi mustache food truck waistcoat williamsburg.
-Beard pork belly pour-over twee,
-slow-carb cray quinoa scenester fam iPhone pitchfork.Leggings venmo asymmetrical irony lyft.
-
-Banh mi mustache food truck waistcoat williamsburg.
-Beard pork belly pour-over twee,
-slow-carb cray quinoa scenester fam iPhone pitchfork.Leggings venmo asymmetrical irony lyft.
-
-Banh mi mustache food truck waistcoat williamsburg.
-Beard pork belly pour-over twee,
-slow-carb cray quinoa scenester fam iPhone pitchfork.Leggings venmo asymmetrical irony lyft.
-
-Banh mi mustache food truck waistcoat williamsburg.
-Beard pork belly pour-over twee,
-slow-carb cray quinoa scenester fam iPhone pitchfork.Leggings venmo asymmetrical irony lyft.
-
-Banh mi mustache food truck waistcoat williamsburg.
-Beard pork belly pour-over twee,
-slow-carb cray quinoa scenester fam iPhone pitchfork.Leggings venmo asymmetrical irony lyft.
-
-Banh mi mustache food truck waistcoat williamsburg.
-Beard pork belly pour-over twee,
-slow-carb cray quinoa scenester fam iPhone pitchfork.Leggings venmo asymmetrical irony lyft.
-
-Banh mi mustache food truck waistcoat williamsburg.
-Beard pork belly pour-over twee,
-slow-carb cray quinoa scenester fam iPhone pitchfork.Leggings venmo asymmetrical irony lyft.
-
-Banh mi mustache food truck waistcoat williamsburg.
-Beard pork belly pour-over twee,
-slow-carb cray quinoa scenester fam iPhone pitchfork.Leggings venmo asymmetrical irony lyft.
-
-Banh mi mustache food truck waistcoat williamsburg.
-Beard pork belly pour-over twee,
-slow-carb cray quinoa scenester fam iPhone pitchfork.Leggings venmo asymmetrical irony lyft.
-
-Banh mi mustache food truck waistcoat williamsburg.
-Beard pork belly pour-over twee,
-slow-carb cray quinoa scenester fam iPhone pitchfork.Leggings venmo asymmetrical irony lyft.
-
-Banh mi mustache food truck waistcoat williamsburg.
-Beard pork belly pour-over twee,
-slow-carb cray quinoa scenester fam iPhone pitchfork.Leggings venmo asymmetrical irony lyft.
-
-Banh mi mustache food truck waistcoat williamsburg.
-Beard pork belly pour-over twee,
-slow-carb cray quinoa scenester fam iPhone pitchfork.Leggings venmo asymmetrical irony lyft.
-
-Banh mi mustache food truck waistcoat williamsburg.
-Beard pork belly pour-over twee,
-slow-carb cray quinoa scenester fam iPhone pitchfork.Leggings venmo asymmetrical irony lyft.
-
-Banh mi mustache food truck waistcoat williamsburg.
-Beard pork belly pour-over twee,
-slow-carb cray quinoa scenester fam iPhone pitchfork.Leggings venmo asymmetrical irony lyft.
-
-Banh mi mustache food truck waistcoat williamsburg.
-Beard pork belly pour-over twee,
-slow-carb cray quinoa scenester fam iPhone pitchfork.</h3>
+slow-carb cray quinoa scenester fam iPhone </h3>
       </div>
     );
   }
